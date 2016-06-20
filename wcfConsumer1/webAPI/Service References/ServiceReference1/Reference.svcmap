@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="dcf98db1-66ef-4212-aaad-a57a32861cfa" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://tucana.gpscams.com:880/CamsDataInterface/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="8f834a92-82a2-4b71-b65e-635c864b0278" SourceId="1" SourceUrl="http://tucana.gpscams.com:880/CAMSDataInterface/?disco" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="897a6faf-d8e9-460f-9250-e60d9c765a39" SourceId="1" SourceUrl="http://tucana.gpscams.com:880/CAMSDataInterface/?xsd=xsd0" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="93230102-2a3e-43d2-93bb-1decbd2936e5" SourceId="1" SourceUrl="http://tucana.gpscams.com:880/CAMSDataInterface/?xsd=xsd1" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="0b86842e-47d9-4e7c-ab0d-de7c101a602f" SourceId="1" SourceUrl="http://tucana.gpscams.com:880/CAMSDataInterface/?xsd=xsd2" />
+    <MetadataFile FileName="item3.xsd" MetadataType="Schema" ID="5349e473-dd18-447b-be24-c40d417e2a00" SourceId="1" SourceUrl="http://tucana.gpscams.com:880/CAMSDataInterface/?xsd=xsd3" />
+    <MetadataFile FileName="CAMSDataInterface.wsdl" MetadataType="Wsdl" ID="280ed269-11e1-4717-a4c5-65629843cf84" SourceId="1" SourceUrl="http://tucana.gpscams.com:880/CAMSDataInterface/?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
