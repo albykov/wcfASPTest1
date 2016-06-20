@@ -7,7 +7,7 @@ using System.Web.Http;
 
 namespace webAPI.Controllers
 {
-    public class cntrller1 : ApiController
+    public class HomeController : ApiController
     {
 
         [HttpPost]
